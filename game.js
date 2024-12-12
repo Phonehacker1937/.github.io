@@ -1,19 +1,14 @@
 function play(userChoice) {
-    // Define possible choices
     const possibleChoices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
 
-    // Generate a random index and corresponding choice
     const randomIndex = Math.floor(Math.random() * possibleChoices.length);
     const randomChoice = possibleChoices[randomIndex];
 
-    // Get references to HTML elements for updates
     const winnerElement = document.getElementById('Winner');
     const computerChoiceElement = document.getElementById('ComputerChoice');
 
-    // Display the computer's choice
     computerChoiceElement.textContent = `Computer chose: ${randomChoice}`;
 
-    // Determine the winner
     if (userChoice === randomChoice) {
         winnerElement.textContent = 'It\'s a Draw!';
     } else if (

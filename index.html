@@ -11,9 +11,26 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header id="header">
-        <img rel="icon" src="https://scontent.fvno8-1.fna.fbcdn.net/v/t1.6435-9/60497143_1208577062654725_4117932755558334464_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=oxcNHAQyNXkQ7kNvgHOMc1S&_nc_zt=23&_nc_ht=scontent.fvno8-1.fna&_nc_gid=AmwyQM8xTARaxjGAOAzMhqi&oh=00_AYAmUFKVxYmGM5ZFsJfT2Mi01bIQi_6G02BAqHQb35ko_g&oe=677641F6"
-         width="50" alt="icon">
+    <header class="top-strip">
+        <div class="logo">
+            <a href="#">
+                <img src="https://scontent.fvno8-1.fna.fbcdn.net/v/t1.6435-9/60497143_1208577062654725_4117932755558334464_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=oxcNHAQyNXkQ7kNvgHOMc1S&_nc_zt=23&_nc_ht=scontent.fvno8-1.fna&_nc_gid=AmwyQM8xTARaxjGAOAzMhqi&oh=00_AYAmUFKVxYmGM5ZFsJfT2Mi01bIQi_6G02BAqHQb35ko_g&oe=677641F6"
+                    alt="Icon">
+            </a>
+        </div>
+        <nav class="social-links">
+            <a href="https://facebook.com" target="_blank" title="Facebook">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="30">
+            </a>
+            <a href="https://instagram.com" target="_blank" title="Instagram">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="30">
+            </a>
+            <a href="https://twitter.com" target="_blank" title="Twitter">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" width="30">
+            </a>
+        </nav>
+    </header>
+    <header class="content" id="header">
         <nav>
             <ul>
                 <li><a href="#about"><u>Apie</u></a></li>
@@ -68,19 +85,53 @@
                 <video controls width="400">
                     <source src="media/Ar_D.mp4" type="video/mp4">
                     Jūsų naršyklė nepalaiko vaizdo elementų.
-                </video>++
+                </video>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/cAqE2Cch-OM" title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
         <section id="services">
             <h1>paslaugos</h1>
                 <section class="grid-container">
-                    <section style="background-color: #edba42"><button class="button-paslaugos">10e</button></section>
-                    <section style="background-color: #f3da3b"><button class="button-paslaugos">20e</button></section>
-                    <section style="background-color: #f4f12c"><button class="button-paslaugos">50e</button></section>
+                    <section ><ul>
+                        <h2>meh</h2>
+                        <h3 style="padding: 5px;">
+                            <sup>€</sup>
+                            10
+                            <span>/ day</span>
+                        </h3>
+                        <li>taip</li>
+                        <li>aha</li>
+                        <li>jo</li>
+                      </ul><button class="button-paslaugos">10e</button></section>
+                    <section><ul>
+                        <li>kaip ir prieštai plius</li>
+                        <li>gerai</li>
+                        <li>super</li>
+                      </ul><button class="button-paslaugos">20e</button></section>
+                    <section><ul>
+                        <li>papidymas prie kitų</li>
+                        <li>super duper</li>
+                        <li>puikiai</li>
+                      </ul><button class="button-paslaugos">50e</button></section>
                 </section>
         </section>
         <footer>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <nav class="social-links" style="text-align: center;">
+                <a href="https://facebook.com" target="_blank" title="Facebook">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="30">
+                </a>
+                <a href="https://instagram.com" target="_blank" title="Instagram">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="30">
+                </a>
+                <a href="https://twitter.com" target="_blank" title="Twitter">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" width="30">
+                </a>
+            </nav>
             <p>&copy; 2024 Arijus Dambrauskis. Visos teisės saugomos.</p>
         </footer>
         <script src="js/script.js"></script>

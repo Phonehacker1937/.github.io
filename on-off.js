@@ -1,5 +1,5 @@
 function changebutton(value) {
-    let image = document.getElementById('on'); // Get the image element
+    let image = document.getElementById('on');
     let imageSrc;
 
     if (value === 'ON') {
@@ -8,5 +8,5 @@ function changebutton(value) {
         imageSrc = "vaizdai/off.png";
     }
 
-    image.src = imageSrc; // Update the image source
+    image.src = imageSrc; 
 }
