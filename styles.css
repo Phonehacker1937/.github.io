@@ -3,8 +3,8 @@ body {
   font-size: 16px;
   font-weight: normal;
   line-height: 1.5;
-  margin: 0;
-  padding: 0;
+  margin: 5px;
+  padding: 10px;
   background-color: #f4f4f4;
   color: #333;
   transition: background-color 0.3s, color 0.3s; 
@@ -210,14 +210,13 @@ body.dark-mode .grid-container {
   text-align: center;
   padding: 20px 0;
   font-size: 40px;
-  color: rgb(20, 19, 19);
   width: 300px;
   align-items: end;
   border-radius: 15px;
 }
 
 body.dark-mode .grid-container > section {
-  background-color: #2b1818;
+  background-color: #484848;
 }
 
 span {
@@ -247,4 +246,32 @@ sup {
   font-weight: 600;
   transition: 0.3s;
 
+}
+
+.math-block {
+  text-align: center;
+  background-color: #504f4f; 
+  border: 1px solid #ddd; 
+  padding: 10px;
+  border-radius: 5px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.svg-animation {
+  margin: 20px auto;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+#clock {
+  background-color: #333;
+  color: #fff;
+  font-size: 3rem;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
