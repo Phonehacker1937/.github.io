@@ -41,13 +41,6 @@
             </ul>
         </nav>
     </header>
-    <div class="svg-animation">
-        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="50" cy="50" r="40" stroke="#4CAF50" stroke-width="5" fill="none" stroke-dasharray="250" stroke-dashoffset="250">
-                <animate attributeName="stroke-dashoffset" from="250" to="0" dur="2s" repeatCount="indefinite" />
-            </circle>
-        </svg>
-    </div>
     <div id="clock">--:--:--</div>
     <script>
         function updateClock() {
@@ -182,10 +175,17 @@
     
     </footer>
     <script src="js/script.js"></script>
-
+        
     <section>
         <h1>mygtukas</h1>
-        <img id="on" src="vaizdai/on.png" alt="Button state">
+        <img id="on" src="vaizdai/on.png" alt="Button state" style="width:10%;">
+        <div class="svg-animation"   style="position: absolute;"; class="centered">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="40" stroke="#4CAF50" stroke-width="5" fill="none" stroke-dasharray="250" stroke-dashoffset="250">
+                    <animate attributeName="stroke-dashoffset" from="250" to="0" dur="2s" repeatCount="indefinite" />
+                </circle>
+            </svg>
+        </div>
         <button class="button" onclick="changebutton('ON')">Turn on</button>
         <button class="button" onclick="changebutton('OFF')">Turn off</button>
         <script src="js/on-off.js"></script>
